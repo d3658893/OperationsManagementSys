@@ -1,0 +1,95 @@
+﻿
+@model OperationsManagementSystem.Models.TaskAssignment
+
+<link href="~/Content/customTable.css" rel="stylesheet" />
+
+@if (Model == null)
+{
+    <div class="col-md-offset-2 col-md-10 text-warning" style="text-align:center;">
+        No Record Found
+    </div>
+}
+else
+{
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>Ticket Number</th>
+            <th>
+                Assignment Date
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Due Date
+            </th>
+            <th>
+                Assigned To
+            </th>
+            <th>
+                Attachment
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Status Date
+            </th>
+            <th>SL</th>
+            <th>
+                Manager Comments
+            </th>
+            <th>
+                Employee Comments
+            </th>
+            <th>
+                Assigned By
+            </th>
+        </tr>
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => model.TicketNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.AssignedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.DueDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.AssignedTo.Split('\\')[1])
+                </td>
+                <td>
+                    @if (Model.Attachment != null)
+                    {
+                        @Html.ActionLink("View", "DownloadTaskFile", "Home", new { @id = Model.TaskId }, null)
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.StatusDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.SL)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.ManagerComments)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.EmployeeComments)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.AssignedBy.Split('\\')[1])
+                </td>
+            </tr>
+
+    </table>
+</div>
+}
+

@@ -1,0 +1,113 @@
+﻿@model OperationsManagementSystem.Models.Ticket
+
+<form class="container" id="myForm">
+    <div class="row">
+        <div class="form-group col-md-6">
+            @Html.HiddenFor(item => item.ID)
+            @Html.HiddenFor(item => item.Team)
+            @Html.HiddenFor(item => item.CreatedBy)
+            @Html.HiddenFor(item => item.CreatedDate)
+            @Html.HiddenFor(item => item.Attachment)
+            @Html.HiddenFor(item => item.AssignedTo)
+            @Html.HiddenFor(item => item.AssignedDate)
+            @Html.HiddenFor(item => item.DueDate)
+            @Html.HiddenFor(item => item.TypeOfReport)
+            @Html.HiddenFor(item => item.AssignedBy)
+            @Html.HiddenFor(item => item.StatusDate)
+            @Html.HiddenFor(item => item.CompleterAttachment)
+
+           <label><b>Ticket Number</b></label>
+            @Html.EditorFor(m => m.TicketNumber, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Ticket Type</b></label>
+            @Html.EditorFor(m => m.TicketType, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label><b>Name</b></label>
+            @Html.EditorFor(m => m.Name, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Type</b></label>
+            @Html.EditorFor(m => m.Type, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label><b>Date Of Initiation</b></label>
+            @Html.EditorFor(m => m.DateOfInitiation, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Description</b></label>
+            @Html.EditorFor(m => m.Description, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label><b>Change Status</b></label>
+            @Html.DropDownListFor(m => m.Status, ViewBag.OpenStatusTypes as IEnumerable<SelectListItem>,
+                              new { @class = "form-control", @Required = "required", @id = "ddlValue" })
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Comments</b></label>
+            @Html.TextBoxFor(m => m.Comments, new { @class = "form-control", @Required = true, @id= "Validatetextbox" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label><b>Completer Attachment</b></label>
+        @Html.EditorFor(m=>m.CompleterAttachment, new { htmlAttributes = new { @class = "form-control", @type = "file", @id = "attachment", style = "display:none;" } })
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-6">
+            <a href="#" id="btnSubmit" class="btn btn-primary">Save</a>
+            <a href="#" class="btn btn-secondary" data-dismiss="modal">Cancel</a>
+        </div>
+    </div>
+</form>
+
+<div style="text-align:center;display:none" id="loaderDiv">
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#ddlValue').change(function () {
+            if ($(this).val() == "Completed") {
+                $('#attachment').show();
+            }
+        });
+
+        $("#btnSubmit").click(function () {
+            if ($("#Validatetextbox").val() == "") {
+                alert("Comments field is required");
+            }
+            else {
+                $("#loaderDiv").show();
+                var formdata = new FormData($('#myForm').get(0));
+                $.ajax({
+                    type: "Post",
+                    url: "/Team/UpdateTicket",
+                    dataType: "JSON",
+                    data: formdata,
+                    contentType: false,
+                    processData: false,
+                    success: function (response) {
+                        $("#loaderDiv").hide();
+                        $("#myUpdateModal").modal("hide");
+                        if (response.success) {
+                            alert(response.responseText);
+                        }
+                        else {
+                            alert(response.responseText);
+                        }
+                        location.href = '@Url.Content("~/Team/Index/")';
+                    }
+                })
+            }
+        })
+    })
+</script>
+
+

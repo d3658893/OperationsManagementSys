@@ -1,0 +1,151 @@
+﻿
+@model IEnumerable<OperationsManagementSystem.Models.TaskAssignment>
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/customTable.css" rel="stylesheet" />
+<style>
+    .modal-dialog {
+        left: 0% !important;
+    }
+
+    .bg-dark {
+        background-color: #343A55 !important;
+    }
+</style>
+
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>Action</th>
+            <th>
+                Ticket Number
+            </th>
+            <th>
+                Assignment Date
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Due Date
+            </th>
+            <th>
+                Assigned To
+            </th>
+            <th>
+                Attachment
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Is Extension Requested
+            </th>
+            <th>
+                Extension Status
+            </th>
+            <th>
+                Employee Comments
+            </th>
+            <th>
+                Extension Date
+            </th>
+            <th>
+                Status Date
+            </th>
+            <th>
+                Assigned By
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                @Html.HiddenFor(modelItem => item.TaskId)
+                <td>                  
+                    <a href="#" class="btn btn-info" onclick="UpdateTaskStatus(@item.TaskId)">Update</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DueDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedTo.Split('\\')[1])
+                </td>
+                <td>
+                    @if (item.Attachment != null)
+                    {
+                        @Html.ActionLink("View", "DownloadTaskFile", "Home", new { @id = item.TaskId }, null)
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @if(item.IsExtensionRequested == true)
+                    {
+                        <p>Yes</p>
+                    }
+                    else
+                    {
+                        <p>No</p>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExtensionStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeComments)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExtensionDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StatusDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedBy.Split('\\')[1])
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+<div class="modal fade modal-center" id="myUpdateModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="display: block !important">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title">Update Task Status</h3>
+            </div>
+            <div class="modal-body" id="myUpdateModalBodyDiv">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script>
+    var UpdateTaskStatus = function (ID) {
+
+        var url = "/Admin/UpdateTaskStatus?ID=" + ID;
+        $("#myUpdateModalBodyDiv").load(url, function () {
+            $("#myUpdateModal").modal("show");
+        })
+    }
+</script>
+
+

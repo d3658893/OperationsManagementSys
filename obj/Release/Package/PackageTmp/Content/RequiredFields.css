@@ -1,0 +1,6 @@
+﻿/*show * content required fields*/
+
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}

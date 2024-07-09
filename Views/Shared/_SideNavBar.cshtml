@@ -1,0 +1,474 @@
+﻿
+<style>
+    .sidebar
+    {
+/*        background-color: #343A55 !important;
+*/    }
+        /* CSS to defines your number of messages */
+        .messages {
+            display: inline-block;
+            background: red;
+            text-align: center;
+            color: #FFF;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            line-height: 26px;
+        }
+        .adminview
+        {
+            margin-left:10px;
+        }
+</style>
+
+<div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="sidebar navbar-nav bg-dark">
+        @{
+            if (User.IsInRole("SuperAdmin"))
+            {
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="/Admin/Index">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Manager Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview active">
+                    <a class="nav-link text-white" href="/Admin/SearchTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>View Ticket</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview active">
+                    <a class="nav-link" href="/Admin/Index" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Workload</span>
+                        <div id="UnreadMessages" class="messages"></div>
+                    </a>
+                </li>
+                <li class="nav-item adminview active">
+                    <a class="nav-link" href="/Admin/TaskAssignment" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>
+                            Task Assignment
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Team/Index">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Team Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview active">
+                    <a class="nav-link" href="/Team/Index" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Team Workload</span>
+                    </a>
+                </li>
+
+                <li class="nav-item adminview active">
+                    <a class="nav-link" href="/Team/TasksAssignedByManager" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Task Assigned By Manager</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview active">
+                    <a class="nav-link" href="/Admin/CreateUser" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>User Creation</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Initiater/SearchTicket">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Initiator Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview active">
+                    <a class="nav-link" href="/Initiater/CreateChangeRequest" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Change Request</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/CreateNewReportTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>New Report</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/ReportABug" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Report a Bug</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Admin/ExtractTicketsReport" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Extract Tickets Report</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Admin/ExtractTaskReport" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Extract Tasks Report</span>
+                    </a>
+                </li>
+
+            }
+
+            if (User.IsInRole("Admin"))
+            {
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Admin/Index">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Manager Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Admin/SearchTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>View Ticket</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Admin/Index" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Workload</span>
+                        <div id="UnreadMessages" class="messages"></div>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Admin/TaskAssignment" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>
+                            Task Assignment
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Team/Index">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Team Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Team/Index" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Team Workload</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Team/TasksAssignedByManager" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Task Assigned By Manager</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Initiater/SearchTicket">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Initiator Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/CreateChangeRequest" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Change Request</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/CreateNewReportTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>New Report</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/ReportABug" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Report a Bug</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Admin/ExtractTicketsReport" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Extract Tickets Report</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Admin/ExtractTaskReport" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Extract Tasks Report</span>
+                    </a>
+                </li>
+            }
+            if (User.IsInRole("Team"))
+            {
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Team/Index">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Team Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Team/SearchTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>View Ticket</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Team/Index" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>View Workload</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Team/TasksAssignedByManager" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Task Assigned By Manager</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Home/POCsList" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Teams POC's</span>
+                    </a>
+                </li>
+            }
+            if (User.IsInRole("Initiater"))
+            {
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Initiater/SearchTicket">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Initiator Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/CreateChangeRequest" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Change Request</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/CreateNewReportTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>New Report</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/ReportABug" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Report a Bug</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/SearchTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>View Ticket</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/Feedback" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Feedback</span>
+                    </a>
+                </li>
+            }
+
+            if (User.IsInRole("InitiatorTeam"))
+            {
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Team/TasksAssignedByManager">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Team Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Team/TasksAssignedByManager" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Task Assigned By Manager</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Initiater/SearchTicket">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Initiator Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/CreateChangeRequest" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Change Request</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/CreateNewReportTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>New Report</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/ReportABug" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Report a Bug</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/SearchTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>View Ticket</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/Feedback" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Feedback</span>
+                    </a>
+                </li>
+            }
+
+            if (User.IsInRole("InitiatorAdmin"))
+            {
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Admin/TaskAssignment">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Manager Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview  dropdown">
+                    <a class="nav-link" href="/Admin/TaskAssignment" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>
+                            Task Assignment
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Initiater/SearchTicket">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Initiator Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/CreateChangeRequest" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Change Request</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/CreateNewReportTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>New Report</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/ReportABug" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Report a Bug</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/SearchTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>View Ticket</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/Feedback" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Feedback</span>
+                    </a>
+                </li>
+
+            }
+
+            if (User.IsInRole("InitiatorTeamAdmin"))
+            {
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Admin/TaskAssignment">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Manager Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Admin/TaskAssignment" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>
+                            Task Assignment
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Team/TasksAssignedByManager">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Team Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Team/TasksAssignedByManager" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Task Assigned By Manager</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Initiater/SearchTicket">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Initiator Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/CreateChangeRequest" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Change Request</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/CreateNewReportTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>New Report</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/ReportABug" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Report a Bug</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/SearchTicket" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>View Ticket</span>
+                    </a>
+                </li>
+                <li class="nav-item adminview dropdown">
+                    <a class="nav-link" href="/Initiater/Feedback" role="button">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Feedback</span>
+                    </a>
+                </li>
+
+            }
+        }
+    </ul>
+    <!-- /.content-wrapper -->
+</div>
+<!-- /#wrapper -->
+<script type='text/javascript'>
+    // Interval to update your messages (15s)
+    var interval = 2000;
+
+    // Set up your interval
+    setInterval(function(){
+         // When your interval hits, query your unread messages and return them
+         $.ajax({
+            type: "POST",
+            url: "/Home/GetUnassignedTicketsCount",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function(data) {
+                // Update your Unread messages area
+                  $("#UnreadMessages").html(data);
+            }
+        });
+    }, interval);
+</script>

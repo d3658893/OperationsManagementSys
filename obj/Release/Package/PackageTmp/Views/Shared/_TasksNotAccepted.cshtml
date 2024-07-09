@@ -1,0 +1,86 @@
+﻿@model IEnumerable<OperationsManagementSystem.Models.TaskAssignment>
+
+<link href="~/Content/customTable.css" rel="stylesheet" />
+
+
+<div class="table-responsive">
+    <table class="table" id="myTable">
+        <tr>
+            <th>Ticket Number</th>
+            <th>
+                Assignment Date
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Due Date
+            </th>
+            <th>
+               Assigned To
+            </th>
+            <th>
+                Attachment
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Assigned By
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DueDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedTo.Split('\\')[1])
+                </td>
+                <td>
+                    @if (item.Attachment != null)
+                    {
+                        @Html.ActionLink("View", "DownloadTaskFile", "Home", new { @id = item.TaskId }, null)
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedBy.Split('\\')[1])
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+<div>
+    <button class="btn btn-info" onclick="exportexcel()">
+        Export to Excel
+    </button>
+</div>
+
+<script src="~/Scripts/jquery.table2excel.min.js"></script>
+
+<script type="text/javascript">
+    function exportexcel() {
+        $("#myTable").table2excel({
+            name: "Table2Excel",
+            filename: "Not Accepted Tasks",
+            fileext: ".xls"
+        });
+    }
+
+</script>

@@ -1,0 +1,125 @@
+﻿@model OperationsManagementSystem.Models.TaskAssignment
+
+<link href="~/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet" />
+
+<form class="container" id="myForm">
+    <div class="form-group">
+        @Html.HiddenFor(item => item.TaskId)
+        @Html.HiddenFor(item => item.Attachment)
+        @Html.HiddenFor(item => item.AssignedTo)
+        @Html.HiddenFor(item => item.AssignedDate)
+        @Html.HiddenFor(item => item.AssignedBy)
+        @Html.HiddenFor(item => item.Counter)
+        @Html.HiddenFor(item => item.Description)
+        @Html.HiddenFor(item => item.ManagerComments)
+        @Html.HiddenFor(item => item.DueDate, new { @id = "duedate" })
+        @Html.HiddenFor(item => item.TicketNo)
+        @Html.HiddenFor(item => item.IsExtensionRequested)
+        @Html.HiddenFor(item => item.ExtensionStatus)
+
+        <label><b>Update Status</b></label>
+        @Html.DropDownListFor(m => m.Status, ViewBag.CompletedStatus as IEnumerable<SelectListItem>,
+                               "-- Select Status --", new { @class = "form-control", @Required = "required", @id = "ddlCompleted" })
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label><b>Employee Comments</b></label>
+            @Html.EditorFor(m => m.EmployeeComments, new { htmlAttributes = new { @class = "form-control", @id = "comments", style = "display:none;" } })
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Extension Date</b></label>
+            @Html.EditorFor(m => m.ExtensionDate, new { htmlAttributes = new { @class = "form-control datepicker", @type = "text", @id = "extensionDate", style = "display:none;" } })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-6">
+            <a href="#" id="btnCompleted" class="btn btn-primary">Save</a>
+            <a href="#" class="btn btn-secondary" data-dismiss="modal">Cancel</a>
+        </div>
+    </div>
+</form>
+
+<div style="text-align:center;display:none" id="loaderDiv">
+
+</div>
+<script src="~/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        var duedate = $('#duedate').val();
+        var date = new Date(duedate).toLocaleString(undefined, {
+            day: 'numeric',
+            month: 'numeric',
+            year: 'numeric',
+        });
+
+        $('.datepicker').datepicker({
+            format: "mm/dd/yyyy",
+            startDate: date,
+            daysOfWeekDisabled: [0, 6],
+            autoclose: true,
+
+        });
+
+        $('#ddlCompleted').change(function () {
+            if ($(this).val() == "Extension Requested") {
+                $('#extensionDate').show();
+                $('#comments').show();
+            }
+            else if ($(this).val() == "Completed") {
+                $('#extensionDate').hide();
+                $('#comments').show();
+            }
+            else {
+                $('#extensionDate').hide();
+                $('#comments').hide();
+            }
+        });
+
+        $("#btnCompleted").click(function () {
+            if ($("#ddlCompleted").val() == "") {
+                alert("Please select one value from dropdown list");
+            }
+            else if ($("#ddlCompleted").val() == "Extension Requested") {
+                if ($('#extensionDate').val() == "" || $('#comments').val() == "") {
+                    alert("Comments and ExtensionDate are required fields");
+                } else {
+                    $("#loaderDiv").show();
+                    var myformdata = $("#myForm").serialize();
+                    $.ajax({
+                        type: "Post",
+                        url: "/Team/UpdateCompletedStatus",
+                        data: myformdata,
+                        success: function () {
+                            $("#loaderDiv").hide();
+                            $("#myUpdateModal").modal("hide");
+                            alert("Status Updated Successfully");
+                            location.href = '@Url.Content("~/Team/TasksAssignedByManager/")';
+                        }
+                    })
+                }
+            }
+            else if ($("#ddlCompleted").val() == "Completed") {
+                if ($('#comments').val() == "") {
+                    alert("Comment field is required");
+                } else {
+                    $("#loaderDiv").show();
+                    var myformdata = $("#myForm").serialize();
+                    $.ajax({
+                        type: "Post",
+                        url: "/Team/UpdateCompletedStatus",
+                        data: myformdata,
+                        success: function () {
+                            $("#loaderDiv").hide();
+                            $("#myUpdateModal").modal("hide");
+                            alert("Status Updated Successfully");
+                            location.href = '@Url.Content("~/Team/TasksAssignedByManager/")';
+                        }
+                    })
+                }
+            }
+
+        })
+
+    })
+</script>

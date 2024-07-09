@@ -1,0 +1,11 @@
+﻿@using OperationsManagementSystem.Models
+@model Ticket
+
+@{
+    ViewBag.Title = "Success Message";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="alert alert-success" style="margin-top:150px;">
+    <b>Ticket created successfully with Ticket Number @Model.TicketNumber </b>
+</div>

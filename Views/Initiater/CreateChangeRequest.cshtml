@@ -1,0 +1,47 @@
+﻿@using OperationsManagementSystem.Models
+@model Ticket
+
+@{
+    ViewBag.Title = "CreateChangeRequest";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container form-horizontal">
+    <h3>Create Change Request Ticket</h3>
+    <hr />
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label><b>Type</b></label>
+           @Html.DropDownListFor(m => m.Type, ViewBag.listTypes as IEnumerable<SelectListItem>,
+           "-- Select Type --", htmlAttributes: new { @class = "form-control", @Required = "required", @id = "combo" })
+        </div>
+        <div class="form-group col-md-6">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" id="btnSubmit" value="Proceed" class="btn btn-info" />
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#btnSubmit').click(function () {
+            var selectedValue = $('#combo :selected').text();
+            if(selectedValue == "Process")
+            {
+                window.location.href = "/Initiater/CreateProcessTicket";
+            }
+            if(selectedValue == "Application")
+            {
+                window.location.href = "/Initiater/CreateApplicationTicket";
+            }
+            if (selectedValue == "Report") {
+                window.location.href = "/Initiater/CreateReportTicket";
+            }
+        });
+    });
+</script>
+

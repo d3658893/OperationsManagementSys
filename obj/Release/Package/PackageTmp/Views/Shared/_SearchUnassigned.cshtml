@@ -1,0 +1,89 @@
+﻿@model IEnumerable<OperationsManagementSystem.Models.Ticket>
+
+<link href="~/Content/customTable.css" rel="stylesheet" />
+
+@if (Model == null || Model.Count() == 0)
+{
+    <div class="col-md-offset-2 col-md-10 text-warning" style="text-align:center;">
+        No Record Found
+    </div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table">
+            <tr>
+                <th>
+                    Ticket Number
+                </th>
+                <th>
+                    Ticket Type
+                </th>
+                <th>
+                    Initiated By
+                </th>
+                <th>
+                    Date Of Initiation
+                </th>
+                <th>
+                    Type
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Team
+                </th>
+                <th>Attachment</th>
+                <th>
+                    Status
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TicketNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TicketType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedBy.Split('\\')[1])
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateOfInitiation)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Type)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Team)
+                    </td>
+                    <td>
+                        @if (item.Attachment != null)
+                        {
+                            @Html.ActionLink("View", "DownloadFile", "Home", new { @id = item.ID }, null)
+                        }
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+}
+
+
+
+

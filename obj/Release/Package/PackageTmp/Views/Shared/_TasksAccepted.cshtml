@@ -1,0 +1,112 @@
+﻿
+@model IEnumerable<OperationsManagementSystem.Models.TaskAssignment>
+
+<link href="~/Content/customTable.css" rel="stylesheet" />
+
+
+<div class="table-responsive">
+    <table class="table" id="myTable">
+        <tr>
+            <th>Ticket Number</th>
+            <th>
+                Assignment Date
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Due Date
+            </th>
+            <th>
+                Assigned To
+            </th>
+            <th>
+                Attachment
+            </th>
+            <th>
+                Status
+            </th>
+            <th>Counter</th>
+            <th>
+                Status Date
+            </th>
+            <th>
+                Assigned By
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DueDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedTo.Split('\\')[1])
+                </td>
+                <td>
+                    @if (item.Attachment != null)
+                    {
+                        @Html.ActionLink("View", "DownloadTaskFile", "Home", new { @id = item.TaskId }, null)
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @{ string dateDue = Convert.ToDateTime(item.DueDate).ToString("yyyy/MM/dd hh:mm:ss"); }
+                    <div data-countdown=@dateDue></div>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StatusDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedBy.Split('\\')[1])
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+<div>
+    <button class="btn btn-info" onclick="exportexcel()">
+        Export to Excel
+    </button>
+</div>
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/jquery.countdown.min.js"></script>
+<script src="~/Scripts/jquery.table2excel.min.js"></script>
+
+<script type="text/javascript">
+
+    $('[data-countdown]').each(function () {
+        var $this = $(this), finalDate = $(this).data('countdown');
+        $this.countdown(finalDate, function (event) {
+            if (event.elapsed) {
+                $this.html(event.strftime('%D days %H:%M:%S'));
+            }
+            else {
+                $this.html(event.strftime('%D days %H:%M:%S'));
+            }
+        });
+    });
+
+    function exportexcel() {
+        $("#myTable").table2excel({
+            name: "Table2Excel",
+            filename: "Accepted Tasks",
+            fileext: ".xls"
+        });
+    }
+
+</script>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="LkpApplicationName">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ApplicationName" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="LkpProcessName">
+    <Key>
+      <PropertyRef Name="ProcessId" />
+    </Key>
+    <Property Name="ProcessId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProcessName" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="LkpReportType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReportType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LkpStatusType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LkpTaskStatu">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LkpTeam">
+    <Key>
+      <PropertyRef Name="TeamId" />
+    </Key>
+    <Property Name="TeamId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TeamName" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="LkpTicketType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TicketType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LkpType">
+    <Key>
+      <PropertyRef Name="TypeId" />
+    </Key>
+    <Property Name="TypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="OMSModel.UserRoles1" FromRole="Role" ToRole="User" />
+  </EntityType>
+  <EntityType Name="TaskAssignment">
+    <Key>
+      <PropertyRef Name="TaskId" />
+    </Key>
+    <Property Name="TaskId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Attachment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AssignedTo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="AssignedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="AssignedDate" Type="DateTime" Precision="3" />
+    <Property Name="Counter" Type="Int32" />
+    <Property Name="ExtensionDate" Type="DateTime" Precision="3" />
+    <Property Name="EmployeeComments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ManagerComments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="StatusDate" Type="DateTime" Precision="3" />
+    <Property Name="TeamMember" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DueDate" Type="DateTime" Precision="3" />
+    <Property Name="SL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TicketNo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsExtensionRequested" Type="Boolean" />
+    <Property Name="ExtensionStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TeamMember">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="NTLogin" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TicketNumber" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TicketType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DateOfInitiation" Type="DateTime" Precision="3" />
+    <Property Name="Type" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Name" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Team" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Attachment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AssignedTo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="AssignedDate" Type="DateTime" Precision="3" />
+    <Property Name="DueDate" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="InitFeedback" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="AssignedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TypeOfReport" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="StatusDate" Type="DateTime" Precision="3" />
+    <Property Name="CompleterAttachment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="InitComments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FeedbackDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+    <Property Name="Username" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="FirstName" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="LastName" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="Email" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="IsActive" Nullable="false" Type="Boolean" />
+    <Property Name="Business_Center" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="MSISDN" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="CNIC" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="Department" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="Job_Title" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="CreatedDate" Precision="3" Type="DateTime" />
+    <Property Name="CreatedBy" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="ModifiedBy" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="ModifiedDate" Precision="3" Type="DateTime" />
+    <Property Name="Completer" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="TeamLead" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="HOD" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="Team" MaxLength="100" FixedLength="false" Unicode="false" Type="String" />
+    <NavigationProperty Name="Roles" Relationship="OMSModel.UserRoles1" FromRole="User" ToRole="Role" />
+  </EntityType>
+  <EntityContainer Name="OMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="LkpApplicationNames" EntityType="Self.LkpApplicationName" />
+    <EntitySet Name="LkpProcessNames" EntityType="Self.LkpProcessName" />
+    <EntitySet Name="LkpReportTypes" EntityType="Self.LkpReportType" />
+    <EntitySet Name="LkpStatusTypes" EntityType="Self.LkpStatusType" />
+    <EntitySet Name="LkpTaskStatus" EntityType="Self.LkpTaskStatu" />
+    <EntitySet Name="LkpTeams" EntityType="Self.LkpTeam" />
+    <EntitySet Name="LkpTicketTypes" EntityType="Self.LkpTicketType" />
+    <EntitySet Name="LkpTypes" EntityType="Self.LkpType" />
+    <EntitySet Name="Roles" EntityType="Self.Role" />
+    <EntitySet Name="TaskAssignments" EntityType="Self.TaskAssignment" />
+    <EntitySet Name="TeamMembers" EntityType="Self.TeamMember" />
+    <EntitySet Name="Tickets" EntityType="Self.Ticket" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <FunctionImport Name="Proc_SendEmail">
+      <Parameter Name="To" Mode="In" Type="String" />
+      <Parameter Name="CC" Mode="In" Type="String" />
+      <Parameter Name="Subject" Mode="In" Type="String" />
+      <Parameter Name="BodyText" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="LkpTaskAssigners" EntityType="OMSModel.LkpTaskAssigner" />
+    <EntitySet Name="Tickets_Log" EntityType="OMSModel.Tickets_Log" />
+    <EntitySet Name="Admins" EntityType="OMSModel.Admin" />
+    <AssociationSet Name="UserRoles11" Association="OMSModel.UserRoles1">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="LkpTaskAssigner">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NTLogin" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Tickets_Log">
+    <Key>
+      <PropertyRef Name="LogID" />
+    </Key>
+    <Property Name="LogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LogDate" Type="DateTime" Precision="3" />
+    <Property Name="ActionPerformed" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TicketNumber" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="AssignedTo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="AssignedDate" Type="DateTime" Precision="3" />
+    <Property Name="AssignedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DueDate" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="StatusDate" Type="DateTime" Precision="3" />
+    <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CompletedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CompletedDate" Type="DateTime" Precision="3" />
+    <Property Name="InitFeedback" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="InitComments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FeedbackDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NTLogin" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="UserRoles1">
+    <End Type="OMSModel.Role" Role="Role" Multiplicity="*" />
+    <End Type="OMSModel.User" Role="User" Multiplicity="*" />
+  </Association>
+</Schema>

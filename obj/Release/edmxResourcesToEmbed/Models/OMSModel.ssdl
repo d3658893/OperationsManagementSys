@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OMSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admins">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="NTLogin" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LkpApplicationNames">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Name="ApplicationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ApplicationName" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="LkpProcessNames">
+    <Key>
+      <PropertyRef Name="ProcessId" />
+    </Key>
+    <Property Name="ProcessId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProcessName" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="LkpReportType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ReportType" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="LkpStatusType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="LkpTaskAssigners">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="NTLogin" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LkpTaskStatus">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="LkpTeams">
+    <Key>
+      <PropertyRef Name="TeamId" />
+    </Key>
+    <Property Name="TeamId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TeamName" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="LkpTicketType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TicketType" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="LkpType">
+    <Key>
+      <PropertyRef Name="TypeId" />
+    </Key>
+    <Property Name="TypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="TaskAssignment">
+    <Key>
+      <PropertyRef Name="TaskId" />
+    </Key>
+    <Property Name="TaskId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Status" Type="varchar" MaxLength="30" />
+    <Property Name="Attachment" Type="nvarchar(max)" />
+    <Property Name="AssignedTo" Type="varchar" MaxLength="100" />
+    <Property Name="AssignedBy" Type="varchar" MaxLength="100" />
+    <Property Name="AssignedDate" Type="datetime" />
+    <Property Name="Counter" Type="int" />
+    <Property Name="ExtensionDate" Type="datetime" />
+    <Property Name="EmployeeComments" Type="nvarchar(max)" />
+    <Property Name="ManagerComments" Type="nvarchar(max)" />
+    <Property Name="StatusDate" Type="datetime" />
+    <Property Name="TeamMember" Type="varchar" MaxLength="30" />
+    <Property Name="DueDate" Type="datetime" />
+    <Property Name="SL" Type="varchar" MaxLength="50" />
+    <Property Name="TicketNo" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsExtensionRequested" Type="bit" />
+    <Property Name="ExtensionStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TeamMember">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" />
+    <Property Name="Status" Type="char" MaxLength="10" />
+    <Property Name="NTLogin" Type="nvarchar(max)" />
+    <Property Name="Role" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TicketNumber" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="TicketType" Type="varchar" MaxLength="20" />
+    <Property Name="DateOfInitiation" Type="datetime" />
+    <Property Name="Type" Type="varchar" MaxLength="30" />
+    <Property Name="Name" Type="varchar" MaxLength="256" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Team" Type="nvarchar" MaxLength="100" />
+    <Property Name="Attachment" Type="nvarchar(max)" />
+    <Property Name="AssignedTo" Type="varchar" MaxLength="100" />
+    <Property Name="AssignedDate" Type="datetime" />
+    <Property Name="DueDate" Type="datetime" />
+    <Property Name="Status" Type="varchar" MaxLength="20" />
+    <Property Name="Comments" Type="nvarchar(max)" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="varchar" MaxLength="100" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="InitFeedback" Type="varchar" MaxLength="100" />
+    <Property Name="AssignedBy" Type="varchar" MaxLength="100" />
+    <Property Name="TypeOfReport" Type="varchar" MaxLength="30" />
+    <Property Name="StatusDate" Type="datetime" />
+    <Property Name="CompleterAttachment" Type="nvarchar(max)" />
+    <Property Name="InitComments" Type="nvarchar(max)" />
+    <Property Name="FeedbackDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Tickets_Log">
+    <Key>
+      <PropertyRef Name="LogID" />
+    </Key>
+    <Property Name="LogID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LogDate" Type="datetime" />
+    <Property Name="ActionPerformed" Type="varchar" MaxLength="20" />
+    <Property Name="TicketNumber" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="AssignedTo" Type="varchar" MaxLength="100" />
+    <Property Name="AssignedDate" Type="datetime" />
+    <Property Name="AssignedBy" Type="varchar" MaxLength="100" />
+    <Property Name="DueDate" Type="datetime" />
+    <Property Name="Status" Type="varchar" MaxLength="20" />
+    <Property Name="StatusDate" Type="datetime" />
+    <Property Name="Comments" Type="nvarchar(max)" />
+    <Property Name="CompletedBy" Type="varchar" MaxLength="100" />
+    <Property Name="CompletedDate" Type="datetime" />
+    <Property Name="InitFeedback" Type="varchar" MaxLength="100" />
+    <Property Name="InitComments" Type="nvarchar(max)" />
+    <Property Name="FeedbackDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar(max)" />
+    <Property Name="FirstName" Type="nvarchar(max)" />
+    <Property Name="LastName" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Business_Center" Type="nvarchar(max)" />
+    <Property Name="MSISDN" Type="nvarchar(max)" />
+    <Property Name="CNIC" Type="nvarchar(max)" />
+    <Property Name="Department" Type="nvarchar(max)" />
+    <Property Name="Job_Title" Type="nvarchar(max)" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="nvarchar(max)" />
+    <Property Name="ModifiedBy" Type="nvarchar(max)" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="Completer" Type="nvarchar(max)" />
+    <Property Name="TeamLead" Type="nvarchar(max)" />
+    <Property Name="HOD" Type="nvarchar(max)" />
+    <Property Name="Team" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_dbo_UserRoles_dbo_Roles_RoleId">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="UserRoles" Type="Self.UserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="UserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_UserRoles_dbo_Users_UserId">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="UserRoles" Type="Self.UserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="UserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="Proc_SendEmail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="To" Type="nvarchar" Mode="In" />
+    <Parameter Name="CC" Type="nvarchar" Mode="In" />
+    <Parameter Name="Subject" Type="varchar" Mode="In" />
+    <Parameter Name="BodyText" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="OMSModelStoreContainer">
+    <EntitySet Name="Admins" EntityType="Self.Admins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LkpApplicationNames" EntityType="Self.LkpApplicationNames" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LkpProcessNames" EntityType="Self.LkpProcessNames" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LkpReportType" EntityType="Self.LkpReportType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LkpStatusType" EntityType="Self.LkpStatusType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LkpTaskAssigners" EntityType="Self.LkpTaskAssigners" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LkpTaskStatus" EntityType="Self.LkpTaskStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LkpTeams" EntityType="Self.LkpTeams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LkpTicketType" EntityType="Self.LkpTicketType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LkpType" EntityType="Self.LkpType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaskAssignment" EntityType="Self.TaskAssignment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TeamMember" EntityType="Self.TeamMember" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ticket" EntityType="Self.Ticket" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tickets_Log" EntityType="Self.Tickets_Log" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserRoles" EntityType="Self.UserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_UserRoles_dbo_Roles_RoleId" Association="Self.FK_dbo_UserRoles_dbo_Roles_RoleId">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="UserRoles" EntitySet="UserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_UserRoles_dbo_Users_UserId" Association="Self.FK_dbo_UserRoles_dbo_Users_UserId">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserRoles" EntitySet="UserRoles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

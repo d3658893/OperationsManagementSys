@@ -1,0 +1,118 @@
+﻿@model OperationsManagementSystem.Models.Ticket
+
+@{
+    ViewBag.Title = "Give Feedback";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{    
+    if (Model.Status != "Completed")
+    {
+        <div class="alert alert-danger" style="margin-top:150px;">
+            <b>Sorry! You cannot submit the feedback at this stage because Ticket is not completed yet.</b>
+        </div>
+    }
+    else if (Model.Status == "Completed" && Model.CreatedBy != User.Identity.Name)
+    {
+        <div class="alert alert-danger" style="margin-top:150px;">
+            <b>Sorry! You don't have permissions to submit feedback against this Ticket.</b>
+        </div>
+    }
+    else if (Model.InitFeedback != null && Model.InitFeedback != "")
+    {
+        <div class="alert alert-info" style="margin-top:150px;">
+            <b>Dear User! Feedback has been already submitted against this Ticket.</b>
+        </div>
+    }
+    else
+    {
+        using (Html.BeginForm("UserFeedback", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="container form-horizontal">
+                <h3>Give Feedback</h3>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                        @{
+                            if (ViewBag.ErrorMessage != "")
+                            {
+                                <div class="col-md-offset-2 col-md-10 text-warning" style="text-align:center;">
+                                    @ViewBag.ErrorMessage
+                                </div>
+                            }
+                        }
+                    </div>
+                @Html.HiddenFor(m => m.Team)
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label><b>Ticket Number</b></label>
+                        @Html.EditorFor(m => m.TicketNumber, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label><b>Ticket Type</b></label>
+                        @Html.EditorFor(m => m.TicketType, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label><b>Description</b></label>
+                        @Html.TextAreaFor(m => m.Description, new { @class = "form-control", @readonly = "readonly", @style = "min-width:100%" })
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label><b>Name</b></label>
+                        @Html.EditorFor(m => m.Name, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label><b>Status</b></label>
+                        @Html.EditorFor(m => m.Status, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label><b>Date Of Initiation</b></label>
+                        @Html.EditorFor(m => m.DateOfInitiation, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label><b>Completed Date</b></label>
+                        @Html.EditorFor(m => m.StatusDate, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label><b>Completer Comments</b></label>
+                        @Html.TextAreaFor(m => m.Comments, new { @class = "form-control", @readonly = "readonly", @style = "min-width:100%" })
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label><b>Completed By</b></label>
+                        @Html.EditorFor(m => m.ModifiedBy, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                    </div>
+                    <div class="form-group col-md-6 required">
+                        <label class="control-label"><b>Feedback</b></label>
+                        @Html.DropDownListFor(model => model.InitFeedback, ViewBag.UserFeedbackResult as IEnumerable<SelectListItem>,
+                     new { @class = "form-control", @Required = "required" })
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12 required">
+                        <label class="control-label"><b>Comments</b></label>
+                        @Html.TextAreaFor(model => model.InitComments, new { @class = "form-control", @style = "min-width:100%", @Required = "required" })
+                        @Html.ValidationMessageFor(model => model.InitComments, "", new { @style = "color:red" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Submit Feedback" class="btn btn-info" />
+                        @*<input type="reset" value="Reset" class="btn btn-info" />*@
+                    </div>
+                </div>
+
+            </div>
+        }
+    }
+}
+

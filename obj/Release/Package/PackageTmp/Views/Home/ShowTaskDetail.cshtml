@@ -1,0 +1,37 @@
+﻿@model IEnumerable<OperationsManagementSystem.Models.TaskAssignment>
+
+@{
+    ViewBag.Title = "ShowTaskDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Task Details</h3>
+<hr />
+
+@{
+    if (Model.Any(x=>x.Status == "Not Accepted"))
+    {
+        Html.RenderPartial("_TasksNotAccepted", Model);
+    }
+    else if(Model.Any(x => x.Status == "Accepted"))
+    {
+        Html.RenderPartial("_TasksAccepted", Model);
+    }
+    else if (Model.Any(x => x.Status == "Completed"))
+    {
+        Html.RenderPartial("_TasksCompleted", Model);
+    }
+    else if (Model.Any(x => x.Status == "Extension Requested"))
+    {
+        Html.RenderPartial("_ExtensionRequired", Model);
+    }
+    else 
+    {
+        Html.RenderPartial("_TasksExtensionResponse", Model);
+    }
+}
+
+
+
+
+

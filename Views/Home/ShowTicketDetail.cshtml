@@ -1,0 +1,53 @@
+﻿@model IEnumerable<OperationsManagementSystem.Models.Ticket>
+
+@{
+    ViewBag.Title = "ShowTicketDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Ticket Details</h3>
+<hr />
+@{
+    if (User.IsInRole("Initiater") || User.IsInRole("InitiatorTeam") || User.IsInRole("InitiatorTeamAdmin") || User.IsInRole("InitiatorAdmin"))
+    {
+        if (Model.Any(x=>x.Status == "UnAssigned"))
+        {
+            Html.RenderPartial("_SearchUnassigned", Model);
+        }
+        else
+        {
+            Html.RenderPartial("_SearchByInitiator", Model);
+        }
+    }
+    if(User.IsInRole("Team"))
+    {
+        if (Model.Any(x => x.Status == "UnAssigned"))
+        {
+            Html.RenderPartial("_SearchUnassigned", Model);
+        }
+        else if (Model.Any(x=>x.Status == "Open"))
+        {
+            Html.RenderPartial("_SearchTicketByDate", Model);
+        }
+        else if(Model.Any(x=>x.Status == "Hold"))
+        {
+            Html.RenderPartial("_UpdateHoldStatus", Model);
+        }
+        else
+        {
+            Html.RenderPartial("_ShowCompletedTickets", Model);
+        }
+    }
+    if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+    {
+        if (Model.Any(x=>x.Status == "UnAssigned"))
+        {
+            Html.RenderPartial("_SearchAdminUnassigned", Model);
+        }
+        else
+        {
+            Html.RenderPartial("_SearchAdmin", Model);
+        }
+    }
+}
+

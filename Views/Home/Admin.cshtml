@@ -1,0 +1,81 @@
+﻿@using OperationsManagementSystem.Models
+@model CreateUser
+
+@{
+    ViewBag.Title = "Create New User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Admin", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="container form-horizontal">
+        <h3>Create New User</h3>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @{
+                if (ViewBag.CreateError != "")
+                {
+                    if (ViewBag.CreateError == "User Created Successfully.")
+                    {
+                        <div class="col-md-offset-2 col-md-10 text-success" style="text-align:center;">
+                            @ViewBag.CreateError
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-md-offset-2 col-md-10 text-warning" style="text-align:center;">
+                            @ViewBag.CreateError
+                        </div>
+                    }
+
+                }
+            }
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6 required">
+                <label class="control-label"><b>First Name</b></label>
+                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control", @Required = "required", @style = "width:100%" } })
+                @Html.ValidationMessageFor(model => model.FirstName, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group col-md-6 required">
+                <label class="control-label"><b>Last Name</b></label>
+                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control", @Required = "required", @style = "width:100%" } })
+                @Html.ValidationMessageFor(model => model.LastName, "", new { @style = "color:red" })
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6 required">
+                <label class="control-label"><b>Username</b></label>
+                @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control", @placeholder = "MOBILINK\\NTLogin", @Required = "required", @style = "width:100%" } })
+                @Html.ValidationMessageFor(model => model.Username, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group col-md-6 required">
+                <label class="control-label"><b>Email</b></label>
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @placeholder = "first.last@jazz.com.pk", @Required = "required", @style = "width:100%" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @style = "color:red" })
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6 required">
+                <label class="control-label"><b>TeamLead Email</b></label>
+                @Html.EditorFor(model => model.TeamLeadEmail, new { htmlAttributes = new { @class = "form-control", @placeholder = "first.last@jazz.com.pk", @Required = "required", @style = "width:100%" } })
+                @Html.ValidationMessageFor(model => model.TeamLeadEmail, "", new { @style = "color:red" })
+            </div>
+            <div class="form-group col-md-6 required">
+                <label class="control-label"><b>Team Name</b></label>
+                @Html.EditorFor(model => model.Team, new { htmlAttributes = new { @class = "form-control", @Required = "required", @style = "width:100%" } })
+                @Html.ValidationMessageFor(model => model.Team, "", new { @style = "color:red" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Submit" class="btn btn-info" />
+                <input type="reset" value="Reset" class="btn btn-info" />
+            </div>
+        </div>
+
+    </div>
+                }

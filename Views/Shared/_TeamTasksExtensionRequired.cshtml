@@ -1,0 +1,105 @@
+﻿@model IEnumerable<OperationsManagementSystem.Models.TaskAssignment>
+
+<link href="~/Content/customTable.css" rel="stylesheet" />
+
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>
+                Ticket Number
+            </th>
+            <th>
+                Assignment Date
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Due Date
+            </th>
+            <th>
+                Assigned To
+            </th>
+            <th>
+                Attachment
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Is Extension Requested
+            </th>
+            <th>
+                Extension Status
+            </th>
+            <th>
+                Employee Comments
+            </th>
+            <th>
+                Extension Date
+            </th>
+            <th>
+                Status Date
+            </th>
+            <th>
+                Assigned By
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DueDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedTo.Split('\\')[1])
+                </td>
+                <td>
+                    @if (item.Attachment != null)
+                    {
+                        @Html.ActionLink("View", "DownloadTaskFile", "Home", new { @id = item.TaskId }, null)
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @if (item.IsExtensionRequested == true)
+                    {
+                        <p>Yes</p>
+                    }
+                    else
+                    {
+                        <p>No</p>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExtensionStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeComments)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExtensionDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StatusDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AssignedBy.Split('\\')[1])
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

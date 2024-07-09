@@ -1,0 +1,42 @@
+﻿<style>
+    .bg-dark
+    {
+        background-color: #343A55 !important;
+    }
+     .bg-admin
+    {
+        background-color: #42658b !important;
+    }
+      .bg-team
+    {
+        background-color: #1c4c64 !important;
+    }
+    .navbar
+    {
+            justify-content:space-between !important;
+    }
+</style>
+@*@if (User.IsInRole("Admin") || User.IsInRole("InitiaterTeamAdmin") || User.IsInRole("InitiaterAdmin") || User.IsInRole("SuperAdmin"))
+{
+    <nav class="navbar navbar-expand navbar-dark bg-admin static-top">
+        <a class="navbar-brand mr-1" style="color:white;"><img style="display: inline-block; height: 50px;" src="~/Images/bg-03.png" />Operations Management System</a>
+        <p class="nav navbar-text navbar-right" style="color:white;"> @User.Identity.Name.Split('\\')[1] <i class="fa fa-user"></i></p>
+    </nav>
+}
+else if (User.IsInRole("Team") || User.IsInRole("InitiaterTeam"))
+{
+    <nav class="navbar navbar-expand navbar-dark bg-team static-top">
+        <a class="navbar-brand mr-1" style="color:white;"><img style="display: inline-block; height: 50px;" src="~/Images/bg-03.png" />Operations Management System</a>
+        <p class="nav navbar-text navbar-right" style="color:white;"> @User.Identity.Name.Split('\\')[1] <i class="fa fa-user"></i></p>
+    </nav>
+}
+else
+{*@
+<nav class="navbar navbar-expand navbar-dark bg-danger static-top" >
+        <a class="navbar-brand mr-1" style="color:white;"><img style="display: inline-block; height: 35px;" class="mr-3" src="~/Images/bg-03.png" />
+    @*Operations Management System*@
+        <span>CX Digital Transformation & Data Analytics - Operations Management System</span>
+    </a>
+        <p class="nav navbar-text navbar-right" style="color:white;"> @User.Identity.Name.Split('\\')[1] <i class="fa fa-user"></i></p>
+    </nav>
+

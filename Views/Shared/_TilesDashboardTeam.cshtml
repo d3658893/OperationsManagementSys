@@ -1,0 +1,70 @@
+﻿<link href="~/Content/Tiles.css" rel="stylesheet" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <a class="info-tiles tiles-inverse has-footer" href="#">
+                <div class="tiles-heading">
+                    Not Accepted
+                </div>
+                <div class="tiles-body text-center">
+                    @ViewBag.NotAcceptedTasks
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-2">
+            <a class="info-tiles tiles-blue has-footer" href="#">
+                <div class="tiles-heading">
+                    Accepted
+                </div>
+                <div class="tiles-body text-center">
+                    @ViewBag.AcceptedTasks
+                </div>
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a class="info-tiles tiles-green has-footer" href="#">
+                <div class="tiles-heading">
+                    Completed
+                </div>
+                <div class="tiles-body text-center">
+                    @ViewBag.CompletedTasks
+                </div>
+            </a>
+        </div>
+
+
+        <div class="col-md-2">
+            <a class="info-tiles tiles-grape has-footer" href="#">
+                <div class="tiles-heading">
+                    Exten Requested
+                </div>
+                <div class="tiles-body text-center">
+                    @ViewBag.ExtensionRequestedTasks
+                </div>
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a class="info-tiles tiles-info has-footer" href="#">
+                <div class="tiles-heading">
+                    Exten Acknowleg
+                </div>
+                <div class="tiles-body text-center">
+                    @ViewBag.ExtensionAcknowledgedTasks
+                </div>
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a class="info-tiles tiles-dribbble has-footer" href="#">
+                <div class="tiles-heading">
+                    Exten Rejected
+                </div>
+                <div class="tiles-body text-center">
+                    @ViewBag.ExtensionRejectedTasks
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+

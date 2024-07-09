@@ -1,0 +1,109 @@
+﻿@model IEnumerable<OperationsManagementSystem.Models.Ticket>
+@using System.Linq;
+@using System.Data.Entity;
+
+<link href="~/Content/customTable.css" rel="stylesheet" />
+
+<!-- /.box-header -->
+@if (Model == null || Model.Count() == 0)
+{
+    <div class="col-md-offset-2 col-md-10 text-warning" style="text-align:center;">
+        No Record Found
+    </div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table" id="mytable">
+            <thead>
+                <tr>
+                    <th>Action</th>
+                    <th>Ticket Number</th>
+                    <th>Ticket Type</th>
+                    <th>Initiated By</th>
+                    <th>Date Of Initiation</th>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Team</th>
+                    <th>Attachment</th>
+                    <th>Assigned To</th>
+                    <th>Assigned Date</th>
+                    <th>Assigned By</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                    <th>Completer Attachment</th>
+                    <th>Status Date</th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    @Html.HiddenFor(modelItem => item.ID)
+                    <td>
+                        <a href="#" class="btn btn-info" onclick="ReassignTicketDetails(@item.ID)">Reassign</a>
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.TicketNumber)</td>
+                    <td>@Html.DisplayFor(modelItem => item.TicketType)</td>
+                    <td>@Html.DisplayFor(modelItem => item.CreatedBy.Split('\\')[1])</td>
+                    <td>@Html.DisplayFor(modelItem => item.DateOfInitiation)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Type)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Team)</td>
+                    <td>
+                        @if (item.Attachment != null)
+                    {
+                            @Html.ActionLink("View", "DownloadFile", "Home", new { @id = item.ID }, null)
+                        }
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.AssignedTo.Split('\\')[1])</td>
+                    <td>@Html.DisplayFor(modelItem => item.AssignedDate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.AssignedBy.Split('\\')[1])</td>
+                    <td>@Html.DisplayFor(modelItem => item.DueDate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                    <td>
+                        @if (item.CompleterAttachment != null)
+                    {
+                            @Html.ActionLink("View", "DownloadCompleterFile", "Home", new { @id = item.ID }, null)
+                        }
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StatusDate)
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.Comments)</td>
+                </tr>
+            }
+
+        </table>
+    </div>
+}
+
+<div class="modal fade modal-center" id="myReassignModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="display: block !important">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title">Reassign Ticket</h3>
+            </div>
+            <div class="modal-body" id="myReassignModalBodyDiv">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    var ReassignTicketDetails = function (ID) {
+
+        var url = "/Admin/ReassignTicketDetails?ID=" + ID;
+        $("#myReassignModalBodyDiv").load(url, function () {
+            $("#myReassignModal").modal("show");
+        })
+    }
+
+</script>

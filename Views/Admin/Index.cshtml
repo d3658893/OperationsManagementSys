@@ -1,0 +1,61 @@
+﻿<link href="~/Content/Tiles.css" rel="stylesheet" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <a class="info-tiles tiles-brown has-footer" href="#">
+                <div class="tiles-heading">
+                    <b>UnAssigned Tickets</b>
+                </div>
+                <div class="tiles-body text-center">
+                    @ViewBag.UnAssignedTickets
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-2">
+            <a class="info-tiles tiles-inverse has-footer" href="#">
+                <div class="tiles-heading">
+                    <b>Open Tickets</b>
+                </div>
+                <div class="tiles-body text-center">
+                    @ViewBag.OpenTickets
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-2">
+            <a class="info-tiles tiles-blue has-footer" href="#">
+                <div class="tiles-heading">
+                    <b>Tickets on Hold</b>
+                </div>
+                <div class="tiles-body text-center">
+                    @ViewBag.HoldTickets
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a class="info-tiles tiles-green has-footer" href="#">
+                <div class="tiles-heading">
+                    <b>Completed Tickets</b>
+                </div>
+                <div class="tiles-body text-center">
+                    @ViewBag.CompletedTickets
+                </div>
+            </a>
+        </div>
+
+
+        <div class="col-md-2">
+            <a class="info-tiles tiles-midnightblue has-footer" href="#">
+                <div class="tiles-heading">
+                    <b>Total Tickets</b>
+                </div>
+                <div class="tiles-body text-center">
+                    @ViewBag.TotalTickets
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+

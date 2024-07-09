@@ -1,0 +1,60 @@
+﻿@using OperationsManagementSystem.Models
+@model Ticket
+
+@{
+    ViewBag.Title = "Create Application Bug Ticket";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("CreateApplicationBugTicket", "Initiater", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="container form-horizontal">
+        <h3>Create Application Bug Ticket</h3>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @{
+                if (ViewBag.ApplicationBugTicketError != "")
+                {
+                    <div class="col-md-offset-2 col-md-10 text-warning" style="text-align:center;">
+                        @ViewBag.ApplicationBugTicketError
+                    </div>
+                }
+            }
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-12 required">
+                <label class="control-label"><b>Application Name</b></label>
+                @Html.DropDownListFor(model => model.Name, ViewBag.ApplicationNamesList as IEnumerable<SelectListItem>,
+                    "-- Select Application --", new { @class = "form-control", @Required = "required" })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @style = "color:red" })
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-12 required">
+                <label class="control-label"><b>Description</b></label>
+                @Html.TextAreaFor(model => model.Description, new { @class = "form-control", @Required = "required", @style = "min-width:100%", @cols = 80, @rows = 8 })
+                @Html.ValidationMessageFor(model => model.Description, "", new { @style = "color:red" })
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label><b>Team</b></label>
+                @Html.EditorFor(model => model.Team, new { htmlAttributes = new { Value = ViewBag.UserTeamName, @class = "form-control", @readonly = "readonly" } })
+            </div>
+            <div class="form-group col-md-6">
+                <label><b>Attachment</b></label>
+                @Html.EditorFor(model => model.Attachment, new { htmlAttributes = new { @class = "form-control", @type = "file" } })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Submit" class="btn btn-info" />
+                <input type="reset" value="Reset" class="btn btn-info" />
+            </div>
+        </div>
+
+    </div>
+                }

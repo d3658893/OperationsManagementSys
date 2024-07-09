@@ -1,0 +1,12 @@
+﻿@using OperationsManagementSystem.Models
+@model TaskAssignment
+
+@{
+    ViewBag.Title = "Success Task";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="alert alert-success" style="margin-top:150px;">
+    <b>New Task created successfully with Ticket Number @Model.TicketNo </b>
+</div>
+

@@ -1,0 +1,112 @@
+﻿@model OperationsManagementSystem.Models.Ticket
+
+<link href="~/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet" />
+
+<form class="container" id="myForm">
+    <div class="row">
+        <div class="form-group col-md-6">
+            @Html.HiddenFor(item => item.ID)
+            @Html.HiddenFor(item => item.TypeOfReport)
+            @Html.HiddenFor(item => item.CreatedBy)
+            @Html.HiddenFor(item => item.CreatedDate)
+            @Html.HiddenFor(item => item.Attachment)
+            @Html.HiddenFor(item => item.AssignedBy)
+            @Html.HiddenFor(item => item.StatusDate)
+            @Html.HiddenFor(item => item.CompleterAttachment)
+
+            <label><b>Ticket Number</b></label>
+            @Html.EditorFor(m => m.TicketNumber, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Ticket Type</b></label>
+            @Html.EditorFor(m => m.TicketType, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label><b>Date Of Initiation</b></label>
+            @Html.EditorFor(m => m.DateOfInitiation, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Type</b></label>
+            @Html.EditorFor(m => m.Type, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label><b>Name</b></label>
+            @Html.EditorFor(m => m.Name, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Description</b></label>
+            @Html.EditorFor(m => m.Description, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label><b>Team</b></label>
+            @Html.EditorFor(m => m.Team, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Status</b></label>
+            @Html.EditorFor(m => m.Status, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label><b>Assign To</b></label>
+            @Html.DropDownListFor(m => m.AssignedTo, ViewBag.MembersList as IEnumerable<SelectListItem>,
+                         new { @class = "form-control", required = "Select Member" })
+        </div>
+        <div class="form-group col-md-6">
+            <label><b>Due Date</b></label>
+            @Html.EditorFor(model => model.DueDate, new { htmlAttributes = new { @class = "form-control datepicker", @type = "text", @Required = "required", @id="selectedDate" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-6">
+            <a href="#" id="btnSubmit" class="btn btn-info">Save</a>
+            <a href="#" id="btnSubmit" class="btn btn-secondary" data-dismiss="modal">Cancel</a>
+        </div>
+    </div>
+</form>
+
+<div style="text-align:center;display:none" id="loaderDiv">
+
+</div>
+<script src="~/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.datepicker').datepicker({
+            format: "mm/dd/yyyy",
+            startDate: '0d',
+            daysOfWeekDisabled: [0, 6],
+            autoclose: true,
+
+        });
+
+        $("#btnSubmit").click(function () {
+            if ($("#selectedDate").val() == "") {
+                alert("Due Date field is required");
+            }
+            else {
+
+                $("#loaderDiv").show();
+                var myformdata = $("#myForm").serialize();
+                $.ajax({
+                    type: "Post",
+                    url: "/Admin/UpdateTicket",
+                    data: myformdata,
+                    success: function () {
+                        $("#loaderDiv").hide();
+                        $("#myModal").modal("hide");
+                        alert("Ticket Assigned Successfully");
+                        location.href = '@Url.Content("~/Admin/Index/")';
+                    }
+                })
+            }
+        })
+    })
+</script>
+

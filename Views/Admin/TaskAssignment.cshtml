@@ -1,0 +1,64 @@
+﻿@using OperationsManagementSystem.Models
+@model LkpTaskStatu
+
+@{
+    ViewBag.Title = "TaskAssignment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{ Html.RenderPartial("_TilesDashboardTeam"); }
+<br />
+<div>
+    @using (Ajax.BeginForm("TaskAssignment", "Admin", new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "searchTasks" }))
+    {
+        <div class="container form-horizontal">
+            <h3>Task Assigment</h3>
+            <hr />
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="button" class="btn btn-info" id="newTask" value="Create New Task" />
+                    <input type="button" class="btn btn-info" id="searchTask" value="Search Task by Ticket No" />
+                </div>
+                <div class="form-group col-md-6">
+                    
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label><b>Status</b></label>
+                    @Html.DropDownListFor(m => m.Name, ViewBag.TaskStatusList as IEnumerable<SelectListItem>,
+           "-- Select Status --", htmlAttributes: new { @class = "form-control", @Required = "required", @id = "combo" })
+                </div>
+                <div class="form-group col-md-6">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" id="btnSubmit" value="Search" class="btn btn-info" />
+                </div>
+            </div>
+            <div id="searchTasks">
+
+            </div>
+        </div>
+
+    }
+
+</div>
+
+        <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#newTask').click(function () {
+
+                    window.location.href = "/Admin/CreateNewTask";
+
+                }); 
+                $('#searchTask').click(function () {
+
+                    window.location.href = "/Admin/SearchTaskByTicket";
+
+                });
+            });
+        </script>

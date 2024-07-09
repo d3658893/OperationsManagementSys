@@ -1,0 +1,867 @@
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.Migrations.initial_migration.resources
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.Migrations.UserUpdated.resources
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.Migrations.ActivationCodeRemoved.resources
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.Migrations.TicketModelAdded.resources
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csproj.GenerateResource.Cache
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+D:\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csprojResolveAssemblyReference.cache
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\ApplicationInsights.config
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\csc.exe
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\vbc.exe
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\EntityFramework.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\PagedList.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\PagedList.Mvc.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.Helpers.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.Mvc.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.Optimization.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.Razor.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.WebPages.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\WebGrease.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\EntityFramework.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\PagedList.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\PagedList.Mvc.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.Helpers.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.Mvc.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.Optimization.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.Razor.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.WebPages.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+D:\OMS\Backups\OperationsManagementSystem_020119\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\New folder\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csprojResolveAssemblyReference.cache
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csprojResolveAssemblyReference.cache
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+D:\ApplicationsHosted\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\170119\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\Deployed Version\300119\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csprojResolveAssemblyReference.cache
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\ApplicationInsights.config
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\csc.exe
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\vbc.exe
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\EntityFramework.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\PagedList.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\PagedList.Mvc.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.Helpers.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.Mvc.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.Optimization.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.Razor.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.WebPages.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\WebGrease.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\EntityFramework.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\PagedList.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\PagedList.Mvc.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.Helpers.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.Mvc.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.Optimization.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.Razor.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.WebPages.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+D:\OMS\Backups\OperationsManagementSystem_300119\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\EPPlus.dll
+C:\Users\muhammad.saleem4\Desktop\120219\OperationsManagementSystem\OperationsManagementSystem\bin\EPPlus.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\EPPlus.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\EPPlus.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+C:\Users\muhammad.saleem4\Desktop\190219\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csprojResolveAssemblyReference.cache
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\EPPlus.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\EPPlus.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+D:\Shared\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csprojResolveAssemblyReference.cache
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\EPPlus.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\EPPlus.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+D:\Shared\COMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\ApplicationInsights.config
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\csc.exe
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\vbc.exe
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll.config
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\OperationsManagementSystem.pdb
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\EPPlus.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\WebGrease.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\EPPlus.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.Web.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\PagedList.Mvc.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Helpers.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Mvc.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Optimization.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.Razor.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Deployment.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\System.Web.WebPages.Razor.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Antlr3.Runtime.pdb
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\bin\Newtonsoft.Json.xml
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csproj.AssemblyReference.cache
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csproj.CoreCompileInputs.cache
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.csproj.CopyComplete
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.dll
+E:\Existing Projects\OMS\OperationsManagementSystem\OperationsManagementSystem\obj\Debug\OperationsManagementSystem.pdb

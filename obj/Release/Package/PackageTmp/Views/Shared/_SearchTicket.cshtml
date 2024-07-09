@@ -1,0 +1,45 @@
+﻿@model OperationsManagementSystem.Models.Ticket
+<link href="~/Content/customTable.css" rel="stylesheet" />
+
+@{
+    if (ViewBag.Message != "")
+    {
+        <div class="col-md-offset-2 col-md-10 text-warning" style="text-align:center;">
+            @ViewBag.Message
+        </div>
+    }
+}
+
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ticket Number</th>
+                <th>Ticket Type</th>
+                <th>Date Of Initiation</th>
+                <th>Report Name</th>
+                <th>Description</th>
+                <th>Team</th>
+                <th>Type Of Report</th>
+                <th>Status</th>
+                <th>Attachment</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>@Html.DisplayFor(model => model.TicketNumber)</td>
+            <td>@Html.DisplayFor(model => model.TicketType)</td>
+            <td>@Html.DisplayFor(model => model.DateOfInitiation)</td>
+            <td>@Html.DisplayFor(model => model.Name)</td>
+            <td>@Html.DisplayFor(model => model.Description)</td>
+            <td>@Html.DisplayFor(model => model.Team)</td>
+            <td>@Html.DisplayFor(model => model.Type)</td>
+            <td>@Html.DisplayFor(model => model.Status)</td>
+            <td>
+                @if (Model.Attachment != null)
+                {
+                    @Html.ActionLink("View", "DownloadFile", "Home", new { @id = Model.ID }, null)
+                }
+            </td>
+        </tr>
+    </table>
+</div>
